@@ -122,13 +122,13 @@ public class MadLib
 
 	public String getRandomVerb()
 	{
-		return verbs.get((int)(Math.random()*verbs.size()-1));
+		return verbs.get((int)(Math.random()*verbs.size()));
 	}
 
 	public String getRandomNoun()
 	{
 
-		return nouns.get((int)(Math.random()*nouns.size()-1));
+		return nouns.get((int)(Math.random()*nouns.size()));
 	}
 
 	public String getRandomAdjective()
