@@ -37,7 +37,7 @@ public class MadLib
 		{
 			//Read the different parts of the story and concatenate the resulting
 			//story using the symbols to tell you the parts of speech
-			Scanner reader = new Scanner(new File("story.dat"));
+			Scanner reader = new Scanner(new File(fileName));
 			String word = "";
 
 			//While there is more of the story, read in the word/symbol
